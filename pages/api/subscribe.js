@@ -24,6 +24,9 @@ try {
     res.statusCode = 400
     res.end()
   }
-} catch { }
+} catch {
+  res.statusCode = 400
+  res.end()
+}
 
 }
