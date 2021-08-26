@@ -4,7 +4,7 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 
 const HomePageMain = ({ slice }) => (
   <section className="section h-screen">
-    <div className="box h-3/4 w-full pt-8 content-evenly justify-center lg:grid lg:grid-rows-3 lg:grid-flow-col lg:gap-6 lg:items-center lg:pt-16">
+    <div className="box h-3/4 w-full pt-12 content-evenly justify-center lg:grid lg:grid-rows-3 lg:grid-flow-col lg:gap-6 lg:items-center lg:pt-16">
       <h1 className="text-4xl font-bold text-center uppercase lg:w-4/5 lg:row-span-2 lg:col-span-1 lg:text-8xl lg:text-left">{slice.primary.heading}</h1>
       <p className="text-center text-2xl lg:col-span-1 lg:text-left lg:w-4/5">{slice.primary.description}</p>
       <div className="w-full flex flex-row justify-evenly lg:row-span-3 lg:h-3/4 lg:pr-32 lg:flex-col lg:justify-between">
