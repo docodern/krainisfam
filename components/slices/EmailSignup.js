@@ -50,7 +50,7 @@ console.log(valid)
   return (
     <>
   <section className="section">
-    <div className="box h-4/5 content-center justify-center divide-y lg:divide-x lg:divide-y-0 lg:justify-between">
+    <div className="box h-4/5 content-center justify-center divide-y py-12 lg:py-0 lg:divide-x lg:divide-y-0 lg:justify-between">
       <div className="text-center mb-16 lg:w-1/2 lg:text-left lg:mb-0">
         <h3 className="text-2xl font-bold mb-8 lg:text-4xl">{slice.primary.title}</h3>
         <p className="text-xl lg:text-2xl">{slice.primary.description}</p>
