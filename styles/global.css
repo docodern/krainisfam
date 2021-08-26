@@ -10,3 +10,9 @@
       @apply flex flex-wrap w-full max-w-screen-xl m-auto px-8;
     }
 }
+
+@layer base {
+  body {
+    @apply relative;
+  }
+}
