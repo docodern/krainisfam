@@ -49,7 +49,7 @@ console.log(valid)
 
   return (
     <>
-  <section className="section h-screen">
+  <section className="section">
     <div className="box h-4/5 content-center justify-center divide-y lg:divide-x lg:divide-y-0 lg:justify-between">
       <div className="text-center mb-16 lg:w-1/2 lg:text-left lg:mb-0">
         <h3 className="text-2xl font-bold mb-8 lg:text-4xl">{slice.primary.title}</h3>

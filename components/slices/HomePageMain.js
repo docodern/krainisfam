@@ -31,7 +31,7 @@ const HomePageMain = ({ slice }) => (
             </a>
       </div>
     </div>
-    <div className="box w-full flex-col mb-20">
+    <div className="box w-full flex-col">
     <p className="text-center text-txc">{slice.primary.help_text}</p>
     <ChevronDownIcon className="animate-bounce block h-6 w-6 mx-auto mt-4 text-txc-red" aria-hidden="true" />
     </div>
